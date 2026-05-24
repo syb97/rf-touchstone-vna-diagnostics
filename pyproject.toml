@@ -1,0 +1,6 @@
+[project]
+name = "rf-touchstone-vna-diagnostics"
+version = "0.1.0"
+description = "VNA Touchstone S-parameter diagnostics"
+requires-python = ">=3.11"
+dependencies = []
