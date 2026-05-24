@@ -3,11 +3,11 @@
 
 本仓库里的Touchstone样本由我们自己生成和整理，不复制第三方测量文件。
 
-公开目录 environment/data/public_touchstone/ 下共有4个样本：
+公开目录environment/data/public_touchstone下共有4个样本：
 
 1. pa_input_match.s1p：一端口输入匹配样本。
 2. antenna_dual_notch.s1p：一端口双谐振馈电样本。
 3. ism_filter_path.s2p：两端口带通路径样本。
 4. fixture_cable_loss.s2p：两端口夹具线缆损耗样本。
 
-这些样本用于检查Touchstone解析、频率单位换算、RI/MA/DB复数转换、拆行记录处理和基础射频诊断指标计算。
+这些样本用于检查Touchstone解析、频率单位换算、RI/MA/DB复数转换、拆行记录处理和基础射频诊断指标计算。正式检查用的样本和参考实现不放在公开仓库里。

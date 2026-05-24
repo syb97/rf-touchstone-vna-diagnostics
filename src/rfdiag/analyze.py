@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Starter implementation for the RF Touchstone diagnostics task."""
+"""Basic Touchstone report builder."""
 
 from __future__ import annotations
 
@@ -83,6 +83,6 @@ def main() -> None:
     args = parser.parse_args()
 
     report = build_report(args.input_dir)
-    out = Path(args.output)
-    out.parent.mkdir(parents=True, exist_ok=True)
-    out.write_text(json.dumps(report, indent=2, sort_keys=True), encoding="utf-8")
+    output = Path(args.output)
+    output.parent.mkdir(parents=True, exist_ok=True)
+    output.write_text(json.dumps(report, indent=2, sort_keys=True), encoding="utf-8")

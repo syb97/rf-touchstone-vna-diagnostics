@@ -1,4 +1,4 @@
-"""Starter package for the RF Touchstone diagnostics task."""
+"""RF Touchstone diagnostics helpers."""
 
 from .analyze import build_report
 

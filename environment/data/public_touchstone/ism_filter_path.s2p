@@ -1,5 +1,5 @@
-! Task-owned RF sample generated for VNA Touchstone diagnostics
-! Source: tests/generate_owned_touchstone_data.py
+! Generated RF sample for VNA Touchstone diagnostics
+! Source: local sample generator
 # GHZ S RI R 50
 ! freq S11 S12 S21 S22
 5.15 0.0548191638465 -0.454330824364 -0.0498012039327 -0.189111302361 0.148675539859 -0.12878679257 -0.191046995149 -0.455818434264 ! calibrated sweep point
